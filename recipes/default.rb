@@ -23,6 +23,9 @@ if node['platform'] == "ubuntu"
 
         template '/var/www/html/index.html' do
 		source 'index.html.erb'
+		mode '0644'
+		owner 'web_admin'
+		group 'web_admin'
 	end	
 
 else
