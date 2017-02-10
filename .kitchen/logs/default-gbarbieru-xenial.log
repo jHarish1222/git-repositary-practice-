@@ -1,7 +1,0 @@
-I, [2017-01-20T08:59:01.484209 #11180]  INFO -- default-gbarbieru-xenial: <html>
-I, [2017-01-20T08:59:01.484289 #11180]  INFO -- default-gbarbieru-xenial: <body>
-I, [2017-01-20T08:59:01.484314 #11180]  INFO -- default-gbarbieru-xenial: <h1> Hello World! from default-gbarbieru-xenial running ubuntu </h1>
-I, [2017-01-20T08:59:01.484333 #11180]  INFO -- default-gbarbieru-xenial: <h2> Will be shown if role works!</h2>
-I, [2017-01-20T08:59:01.484350 #11180]  INFO -- default-gbarbieru-xenial: </body>
-I, [2017-01-20T08:59:01.484365 #11180]  INFO -- default-gbarbieru-xenial: </html>
-I, [2017-01-20T08:59:01.484380 #11180]  INFO -- default-gbarbieru-xenial: 

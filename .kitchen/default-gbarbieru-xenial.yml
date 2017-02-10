@@ -1,7 +1,7 @@
 ---
 hostname: 127.0.0.1
-port: '2200'
+port: '2201'
 username: vagrant
-ssh_key: "/home/rle0427/chef-repo/cookbooks/learn_chef_apache2/.kitchen/kitchen-vagrant/kitchen-learn_chef_apache2-default-gbarbieru-xenial/.vagrant/machines/default/virtualbox/private_key"
+ssh_key: "/home/raj/chef-repo/cookbooks/learn_chef_apache2/.kitchen/kitchen-vagrant/kitchen-learn_chef_apache2-default-gbarbieru-xenial/.vagrant/machines/default/virtualbox/private_key"
 last_action: converge
 last_error: 
