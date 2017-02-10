@@ -2,6 +2,9 @@
 driver:
   name: vagrant
 
+driver_config:
+  box: gbarbieru/xenial 
+
 provisioner:
   name: chef_zero
   # You may wish to disable always updating cookbooks in CI or other testing environments.
@@ -13,7 +16,21 @@ verifier:
   name: inspec
 
 platforms:
-  - name: gbarbieru/xenial
+- name: web-server1
+  run_list:
+  - recipe[learn_chef_apache2::default]
+  driver_config:
+    customize:
+      memory: 1024
+    network:
+      - ['private_network', {ip: '192.168.33.53'}]
+
+- name: web-server2 
+  run_list:
+  - recipe[learn_chef_apache2::default]
+  driver_config:
+    network:
+      - ['private_network', {ip: '192.168.33.63'}]
 
 suites:
   - name: default
